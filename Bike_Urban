@@ -1,0 +1,110 @@
+# 🚲 Empresa Bike Urban – Loja Ficitícia de Bicicletas e Acessórios
+
+Bike_Urban é um projeto fictício que simula uma empresa varejista de bicicletas e acessórios, com unidades localizadas em Brasília e Rio de Janeiro.
+O objetivo é demonstrar competências práticas em banco de dados relacional, Python com Programação Orientada a Objetos (POO) e integração com ferramentas de Business Intelligence, como o Power BI.
+
+---
+
+## 🎯 Objetivo
+
+Construir uma solução completa baseada em dados fictícios do ano de 2024, representando os principais processos de uma operação comercial:
+
+* Cadastro e controle de produtos, vendas e unidades
+* Implementação de um banco de dados relacional (MySQL)
+* Desenvolvimento de sistema em Python utilizando conceitos de POO
+* Criação de dashboards interativos no Power BI com foco em análises comerciais
+* Organização do projeto em ambiente profissional com PyCharm
+
+---
+
+## 💻 Tecnologias e Ferramentas
+
+| Ferramenta     | Finalidade                                       |
+| -------------- | ------------------------------------------------ |
+| 🐍 Python 3.11 | Lógica de negócio, integração com banco de dados |
+| 🛢️ MySQL      | Armazenamento e estruturação de dados            |
+| 🔌 PyMySQL     | Conexão entre Python e MySQL                     |
+| 📊 Power BI    | Visualização e análise de dados comerciais       |
+| 🧠 POO         | Organização e reutilização de código             |
+| 🧑‍💻 PyCharm  | Ambiente de desenvolvimento em Python            |
+
+---
+
+## 🧱 Estrutura do Projeto
+
+```plaintext
+bicicleta_urbana/
+├── aulas/
+│   ├── conexao.py         # Classe de conexão com o banco de dados
+│   ├── operacoes.py       # Métodos para inserção, consulta e atualização
+│   ├── produto.py         # Classe representando os produtos
+│   ├── venda.py           # Classe representando as vendas
+├── main.py                # Script principal para execução do sistema
+├── banco_de_dados.sql     # Script de criação do banco e tabelas
+├── painel/
+│   └── painel.pbix        # Dashboard interativo no Power BI
+├── imagens/
+│   ├── capa_projeto.png   # Imagem de capa do projeto
+│   ├── estrutura_projeto.png # Diagrama da estrutura do projeto
+│   └── dashboard_exemplo.png # Captura de tela do dashboard
+```
+
+---
+
+## 🗂️ Dados Simulados
+
+* Ano-base: 2024
+* Unidades: Brasília e Rio de Janeiro
+* Produtos: Bicicletas urbanas, capacetes e acessórios
+* Lojas: Informações de endereço e contato
+* Vendas: Data, itens vendidos, loja responsável e valores
+
+---
+
+## 🔌 Integrações
+
+* Python + MySQL: Manipulação dos dados com classes POO e biblioteca PyMySQL
+* MySQL + Power BI: Relatórios dinâmicos conectados diretamente ao banco
+* PyCharm + MySQL: Ambiente integrado para controle e automação de operações
+
+---
+
+## 📊 Power BI Dashboard
+
+![Dashboard Exemplo](https://raw.githubusercontent.com/SeuUsuario/SeuRepositorio/main/imagens/dashboard_exemplo.png)
+
+O painel desenvolvido em Power BI (painel.pbix) apresenta visualizações com insights relevantes, incluindo:
+
+* 🏬 Vendas totais por unidade
+* 🚲 Produtos mais vendidos
+* 📆 Faturamento mensal
+* ⚖️ Comparativo de desempenho entre lojas
+* 🎟️ Ticket médio mensal
+
+---
+
+## ▶️ Como Executar o Projeto
+
+1. Crie o banco de dados executando o script banco\_de\_dados.sql
+2. Configure o ambiente Python e instale a biblioteca pymysql
+3. Abra o projeto no PyCharm
+4. Atualize os dados de conexão em conexao.py com suas credenciais MySQL
+5. Execute main.py para simular as operações da empresa
+6. Abra o Power BI e conecte ao banco MySQL para atualizar os dados e visualizar o painel
+
+---
+
+## 📌 Status do Projeto
+
+* ✅ Banco de dados relacional implementado
+* ✅ Integração completa Python + MySQL (POO)
+* ✅ Painel Power BI funcional e conectado
+* 🚧 Futuras implementações: controle de estoque e simulação de entregas
+
+---
+
+## 👨‍💻 Autor
+
+Desenvolvido por [Lucas Santos](https://www.linkedin.com/in/lucass-dados)
+Estudante de Análise e Desenvolvimento de Sistemas | Entusiasta de Dados e BI
+GitHub: [Santos-LN](https://github.com/Santos-LN)
