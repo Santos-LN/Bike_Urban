@@ -71,9 +71,7 @@ bicicleta_urbana/
 
 ## 📊 Power BI Dashboard
 
-![Dashboard Exemplo](https://raw.githubusercontent.com/SeuUsuario/SeuRepositorio/main/imagens/dashboard_exemplo.png)
-
-O painel desenvolvido em Power BI (painel.pbix) apresenta visualizações com insights relevantes, incluindo:
+O painel desenvolvido em Power BI (https://l1nq.com/ytfYD) apresenta visualizações com insights relevantes, incluindo:
 
 * 🏬 Vendas totais por unidade
 * 🚲 Produtos mais vendidos
